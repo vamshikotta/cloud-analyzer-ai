@@ -1,0 +1,3 @@
+provider,service,cost,timestamp,subscription,resource_group,tags
+AWS,ProjectA,100.0,2024-01-01,,,ProjectA
+Azure,Example Azure Service,123.45,2024-01-01,,,
