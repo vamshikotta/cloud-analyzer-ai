@@ -1,0 +1,47 @@
+# Virtual environments
+venv/
+cloud-cost-env/
+.env
+.venv/
+
+# Python caches and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local environment and secrets
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Build/dist artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated or local data files
+cloud-cost-env/normalize-data/aws_data.json
+cloud-cost-env/normalize-data/azure_data.json
+cloud-cost-env/normalize-data/normalized_data.json
+
